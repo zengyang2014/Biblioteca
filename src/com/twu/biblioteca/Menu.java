@@ -4,7 +4,8 @@ package com.twu.biblioteca;
 import java.util.ArrayList;
 
 public class Menu {
-
+//I think menu should not know anything about user, move or book, it's only need to print a memu. And commands should not excute
+// in menu class, for example, if there are more and more commands in the future this class will become more and more bigger.
     private BookLibrary bookLibrary;
     private Display display;
     private MovieLibrary movieLibrary;
